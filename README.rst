@@ -17,15 +17,15 @@ Tabular
 
 Tabular format::
 
-{
-  // Array of header fields
-  header: [
-  ],
-  // list of rows where each row is an Array
-  data: [
-    [], 
-  ]
-}
+  {
+    // Array of header fields
+    header: [
+    ],
+    // list of rows where each row is an Array
+    data: [
+      [], 
+    ]
+  }
 
 
 Tree
@@ -33,18 +33,18 @@ Tree
 
 Structure::
 
-{
-  id: 'root',
-  name: 'root',
-  data: {
-    $area: ...
-  }
-  children: [
-    {
-      ... a node ...
+  {
+    id: 'root',
+    name: 'root',
+    data: {
+      $area: ...
     }
-  ]
-}
+    children: [
+      {
+        ... a node ...
+      }
+    ]
+  }
 
-This is borrowed from the.
+This is borrowed from thejit.
 
